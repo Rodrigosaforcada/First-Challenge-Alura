@@ -101,4 +101,12 @@ textarea:focus {
         width: 100vw;
         margin: 0 auto;
     }
+
+    #input-message {
+        min-height: 600px;
+    }
+
+    #decoded-message {
+        min-height: 580px;
+    }
 }
