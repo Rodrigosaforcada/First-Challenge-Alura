@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(45deg, lemonchiffon, rgb(241, 241, 138));
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    width: 45vw;
+}
+
+button {
+    font-size: 130%;
+    background-color: rgb(19, 153, 146);
+    color: rgb(231, 218, 167);
+    border-radius: 5px;
+    transition: 600ms;
+}
+
+button:hover {
+    font-size: 150%;
+    background-color: rgb(101, 191, 221);
+    color: rgb(182, 50, 56);
+}
+
+#input-message, #decoded-message {
+    height: 75vh;
+}
+
+#text-input {
+    display: block;
+    margin: 16px auto;
+    width: 250px;
+    max-width: 250px;
+    min-width: 250px;
+    height: 55vh;
+    max-height: 55vh;
+    min-height: 55vh;
+    border-radius: 10px;
+    font-family: Arial;
+    font-size: 120%;
+}
+
+textarea:focus {
+    font-family: Arial;
+    font-size: 120%;
+}
+
+#error-message {
+    color: crimson;
+}
+
+#encoder, #decoded, .copy {
+    display: block;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+
+.copy {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#decoded-legend {
+    font-family: Calibri, Helvetica, Arial;
+    height: 17px;
+}
+
+#coded-message {
+    display: block;
+    float: initial;
+    background-color: rgb(189, 55, 189);
+    border-radius: 50px;
+    height: 55vh;
+    width: 250px;
+    margin: 10px auto;
+}
+
+#autor-contacto {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 200px;
+    width: 100vw;
+}
+
+@media screen and (max-width:750px){
+
+    div {
+        width: 100vw;
+        margin: 0 auto;
+    }
+}

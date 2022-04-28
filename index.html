@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Codificado</title>
+</head>
+<body>
+    <h1>Codificador y Decodificador de mensajes</h1>
+    <div id="input-message">
+        <label>Ingrese su mensaje: </label>
+        <textarea id="text-input" type="text"></textarea>
+        <label id="error-message"></label>
+        <button id="encoder">¡Codificar!</button>
+        <button class="copy" id="copy-message">¡Copiar!</button>
+    </div>
+    <div id="decoded-message">
+        <legend id="decoded-legend">Tu mensaje codificado aparece aqui:</legend>
+        <div id="coded-message">
+            <h4 id="coded-result">Resultado</h4>
+        </div>
+        <button id="decoded">¡Decodificar!</button>
+        <button class="copy" id="copy-coded-message">¡Copiar!</button>
+    </div>
+    <div id="autor-contacto">
+        <p>Creado por <strong>Rodrigo Saforcada</strong>, correo: <em>saforcadarodrigo@gmail.com</em></p>
+    </div>
+    <script src="./js/encoder.js"></script>
+    <script src="./js/decode.js"></script>
+    <script src="./js/copyMessage.js"></script>
+    <script src="./js/copyMessageCoded.js"></script>
+</body>
+</html>       
